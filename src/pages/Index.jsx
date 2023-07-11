@@ -1,8 +1,10 @@
 import React from 'react'
+import Main from '../components/Main'
+
 
 const Index = () => {
   return (
-    <div>Index</div>
+    <Main/>
   )
 }
 
