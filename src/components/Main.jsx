@@ -3,6 +3,8 @@ import { useGetAllProductsQuery } from "../Redux/slices/productsApi";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../Redux/slices/cartSlice";
 
+
+
 const Main = () => {
   const { data, error, isLoading } = useGetAllProductsQuery();
   const dispatch = useDispatch()
